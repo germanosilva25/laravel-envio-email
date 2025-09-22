@@ -23,7 +23,7 @@ class GenericEmail extends Mailable
     {
         return $this
             ->subject($this->subjectLine)
-            ->view('emails.generic') // ✅ view HTML
+            ->view('envio-email::emails.generic') // ✅ view HTML
             ->with([
                 'bodyContent' => $this->bodyContent,
                 'subjectLine' => $this->subjectLine,
