@@ -5,6 +5,7 @@
     <title>{{ $subjectLine }}</title>
 </head>
 <body>
-    {!! nl2br(e($bodyContent)) !!}
+    {!! $bodyContent !!}
 </body>
 </html>
+
