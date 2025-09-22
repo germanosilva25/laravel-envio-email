@@ -1,0 +1,21 @@
+{
+  "name": "germanosilva25/envio-email",
+  "description": "Pacote de envio de e-mails com suporte a fila para Laravel",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "EnvioEmail\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "EnvioEmail\\EnvioEmailServiceProvider"
+      ]
+    }
+  },
+  "require": {
+    "php": ">=8.0",
+    "illuminate/support": "^9.0|^10.0|^11.0"
+  }
+}
