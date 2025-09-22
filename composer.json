@@ -1,5 +1,5 @@
 {
-  "name": "germanosilva25/envio-email",
+  "name": "germanosilva25/laravel-envio-email",
   "description": "Pacote de envio de e-mails com suporte a fila para Laravel",
   "type": "library",
   "autoload": {
